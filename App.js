@@ -1,6 +1,5 @@
 import React from "react";
-// 1. import `NativeBaseProvider` component
-import { NativeBaseProvider, Text, Box, Flex, Input } from "native-base";
+import { NativeBaseProvider } from "native-base";
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer } from '@react-navigation/native';
 

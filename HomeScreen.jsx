@@ -5,7 +5,7 @@ import { Box, Button, Flex, Input } from 'native-base';
 export default function HomeScreen({ navigation }) {
     return (
         <Box flex={1} bg="#fff" alignItems="center" justifyContent="center" h={'100%'} w={'100%'}>
-            <Flex gap={10} flexDir={'row'}>
+            <Flex gap={10} flexDir={'column'}>
                 <Text>HomeScreen</Text>
                 <Input variant="rounded" placeholder="name" />
                 <Button
